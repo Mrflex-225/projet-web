@@ -1,0 +1,475 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+    
+ body{
+    background-attachment: scroll;
+ }
+ body header{
+ /*   background-color: rgb(162, 224, 138);*/
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)) ,url(../image/beach-1236581_1920.jpg);   
+    background-position: center;
+    height: 10vh;
+    background-size: cover;
+ 
+}
+
+.logo a {
+    color: #fff;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: rgba(0,0,0,0.7);
+}
+.logo span{
+    color:red;
+    font-weight: bold;
+    font-size: 2rem;
+    }
+
+ul{
+    display: flex;
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+}
+ul li a {
+    text-decoration: none;
+    color: #fff;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 5px;
+    font-weight: 500px;
+    transition: 0.6s ;
+}
+
+ul li a:hover{
+    background: #fff;
+    color: #000;
+}
+
+ul li.active a{
+    background: #fff;
+    color: #000;
+}
+
+
+.text1{
+    position: absolute;
+    top:40vh;
+    left: 60vh;
+}
+
+
+.text1 h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.btn{
+    position: absolute;
+    top:60vh;
+    left: 60vh;
+}
+
+.btn a {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    transition: 00.6s;
+    padding: 10px 20px;
+}
+
+.btn :hover{
+    background-color: #fff;
+    color: #000;
+}
+
+marquee{
+    border: transparent solid 3px;
+    background-color:#E5E7E9 ;
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+/*
+CSS IMAGES
+
+*/
+
+.section{
+    height: 50vh;
+    display: flex;
+    margin-left: 20%;
+    justify-content: left;
+    align-items: center;
+    background: transparent
+}
+
+
+.section2{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin-left: 20%;
+    justify-content: left;
+
+}
+
+.section3{
+    height: 50vh;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background: transparent;
+    margin-left: 20%;
+}
+
+.section4{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    background: transparent;
+    margin-left: 20%;
+    justify-content: left;
+
+}
+
+
+.slider{
+    position: relative;
+    width: 19%;
+    overflow: hidden;
+}
+
+
+
+.slider2{
+    position: relative;
+    width: 19%;
+    overflow: hidden;
+}
+.slider3{
+    position: relative;
+    width: 19%;
+    overflow: hidden;
+}
+.slider4{
+    position: relative;
+    width: 19%;
+    overflow: hidden;
+}
+
+.images{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.images2{
+    display: flex;
+    width: 100%;
+    
+}
+
+.images3{
+    display: flex;
+    width: 100%;
+    
+}
+
+
+.images4{
+    display: flex;
+    width: 100%;
+}
+
+
+.images img{
+    height: 200px ;
+    width: 100%;
+    transition: all 0.15s ease;
+
+}
+
+
+
+.images2 img{
+    height: 200px ;
+    width: 100%;
+    transition: all 0.15s ease;
+
+}
+
+.images3 img{
+    height: 200px ;
+    width: 100%;
+    transition: all 0.15s ease;
+
+}
+
+.images4 img{
+    height: 200px ;
+    width: 100%;
+    transition: all 0.15s ease;
+
+}
+
+
+.images input{
+    display: none;
+}
+
+
+.images2 input{
+    display: none;
+}
+
+.images3 input{
+    display: none;
+}
+.images4 input{
+    display: none;
+}
+
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px ;
+}
+
+.dots2{
+    display: flex;
+    justify-content: center;
+    margin: 5px ;
+}
+
+.dots3{
+    display: flex;
+    justify-content: center;
+    margin: 5px ;
+}
+
+
+
+
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid  #000000 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+
+
+.dots2 label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid  #000000 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots3 label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid  #000000 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+
+
+.dots label:hover{
+    background: #fff;
+}
+
+
+
+.dots2 label:hover{
+    background: #fff;
+}
+
+.dots3 label:hover{
+    background: #fff;
+}
+
+
+
+
+#img1:checked ~ .m1{
+    margin-left: 0%;
+}
+
+#image11:checked ~ .image11{
+    margin-left: 0%;
+}
+
+#img11:checked ~ .img1{
+    margin-left: 0%;
+}
+
+
+#img2:checked ~ .m2{
+    margin-left: -10% ;
+}
+
+#image22:checked ~ .image22{
+    margin-left: -100% ;
+}
+
+#img22:checked ~ .img2{
+    margin-left: -100% ;
+}
+
+
+#img3:checked ~ .m3{
+    margin-left: -200%;
+}
+
+
+#image33:checked ~ .image33{
+    margin-left: -200%;
+}
+
+#img33:checked ~ .img3{
+    margin-left: -200%;
+}
+
+
+
+
+
+
+
+#img4:checked ~ .m4{
+    margin-left: -300%;
+}
+
+
+#img5:checked ~ .m5{
+    margin-left: -400%;
+}
+
+#img6:checked ~ .m6{
+    margin-left: -500%;
+}
+
+.paraeglise{
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    text-align: justify;
+}
+
+
+
+
+.parawarf{
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    text-align: justify;
+}
+
+
+
+.parapont{
+    width: 50%;
+    position: absolute;
+    left: 40%;
+    text-align: justify;
+}
+
+.icone{
+    width: 50px;
+ }
+ 
+ footer div a{
+    text-decoration: none;
+    color: #000;
+    border-left: #000 solid 2px;
+    margin-top: 6px;
+    margin-bottom: 6px;
+    padding-left: 2px;
+ 
+ }
+ 
+ footer{
+    box-shadow: 6px 7px 20px rgb(136, 130, 130);
+    width: 98.65vw;
+    height:130px;
+    display: flex;
+ }
+ 
+ footer div{
+    width: 123px;
+    margin-left: 123px;
+ }
+ 
+ 
+ #num{
+    border-left: #000 solid 2px;
+    width: 210px;
+    height: 90px;
+    margin-top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+    justify-content: center;
+ }
+ 
+ #lien{
+    width: 300px;
+    display: flex;
+    flex-direction: column  ;
+ }
+ 
+ 
+ #image{
+    display: flex;
+    width: 12px;
+    position: absolute;
+    left: 125vh;   
+    margin-top: 30px;
+    border-left: #000 2px solid;
+    justify-content: space-between;
+ }
+
+ .btn1{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    border-radius:50% ;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    left: 20px;
+    bottom: 20px;
+    cursor: pointer;
+ }
+  
